@@ -1,0 +1,25 @@
+# Cadence Xcelium (xrun) simulator artifacts
+xrun.log
+xrun.history
+xrun.key
+*.shm/
+*.diag
+xcelium.d/
+*.trn
+*.err
+*.swp
+
+# Waveform dumps (regenerate by re-running simulation)
+*.vcd
+*.wlf
+*.shm
+
+# Questa/ModelSim artifacts
+work/
+transcript
+vsim.wlf
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
